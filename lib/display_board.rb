@@ -1,5 +1,4 @@
 
-
 def display_board
   puts row = "   |   |   "
   puts separator = "-----------"
@@ -7,3 +6,7 @@ def display_board
   puts separator
   puts row
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+display_board(board)
